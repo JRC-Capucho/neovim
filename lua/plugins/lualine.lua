@@ -3,7 +3,7 @@ return {
   event = "VeryLazy",
   opts = {
     options = {
-      theme = "rose-pine",
+      theme = "gruvbox",
     },
   },
 }

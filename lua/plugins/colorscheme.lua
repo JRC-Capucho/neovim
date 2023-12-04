@@ -1,14 +1,27 @@
 return {
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    dependencies = { "rose-pine/neovim", name = "rose-pine" },
-    opts = {
-      colorscheme = "rose-pine",
-    },
+  "LazyVim/LazyVim",
+  priority = 1000,
+  dependencies = {
+    "ellisonleao/gruvbox.nvim",
+  },
+  opts = {
+    colorscheme = "gruvbox",
   },
 }
 
+-- ROSE PINE
+-- return {
+--   -- Configure LazyVim to load gruvbox
+--   {
+--     "LazyVim/LazyVim",
+--     dependencies = { "rose-pine/neovim", name = "rose-pine" },
+--     opts = {
+--       colorscheme = "rose-pine",
+--     },
+--   },
+-- }
+
+-- CATPPUCCIN
 -- return {
 --   "LazyVim/LazyVim",
 --   opts = {
