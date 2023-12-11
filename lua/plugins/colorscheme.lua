@@ -1,13 +1,24 @@
 return {
-  "LazyVim/LazyVim",
-  priority = 1000,
-  dependencies = {
-    "ellisonleao/gruvbox.nvim",
-  },
-  opts = {
-    colorscheme = "gruvbox",
+  -- Configure LazyVim to load oxocarbon
+  {
+    "LazyVim/LazyVim",
+    dependencies = { "nyoom-engineering/oxocarbon.nvim", name = "oxocarbon" },
+    opts = {
+      colorscheme = "oxocarbon",
+    },
   },
 }
+
+-- return {
+--   "LazyVim/LazyVim",
+--   priority = 1000,
+--   dependencies = {
+--     "ellisonleao/gruvbox.nvim",
+--   },
+--   opts = {
+--     colorscheme = "gruvbox",
+--   },
+-- }
 
 -- ROSE PINE
 -- return {
