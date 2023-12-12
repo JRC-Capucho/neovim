@@ -2,12 +2,26 @@ return {
   -- Configure LazyVim to load oxocarbon
   {
     "LazyVim/LazyVim",
-    dependencies = { "nyoom-engineering/oxocarbon.nvim", name = "oxocarbon" },
+    dependencies = {
+      "marko-cerovac/material.nvim",
+      name = "material",
+    },
     opts = {
-      colorscheme = "oxocarbon",
+      colorscheme = "material-deep-ocean",
     },
   },
 }
+
+-- return {
+--   -- Configure LazyVim to load oxocarbon
+--   {
+--     "LazyVim/LazyVim",
+--     dependencies = { "nyoom-engineering/oxocarbon.nvim", name = "oxocarbon" },
+--     opts = {
+--       colorscheme = "oxocarbon",
+--     },
+--   },
+-- }
 
 -- return {
 --   "LazyVim/LazyVim",
