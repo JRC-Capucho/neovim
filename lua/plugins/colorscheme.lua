@@ -3,14 +3,51 @@ return {
   {
     "LazyVim/LazyVim",
     dependencies = {
-      "marko-cerovac/material.nvim",
-      name = "material",
+      "rebelot/kanagawa.nvim",
     },
     opts = {
-      colorscheme = "material-deep-ocean",
+      colorscheme = "kanagawa",
     },
   },
 }
+-- return {
+--   -- Configure LazyVim to load oxocarbon
+--   {
+--     "LazyVim/LazyVim",
+--     dependencies = {
+--       "getomni/neovim",
+--     },
+--     opts = {
+--       colorscheme = "omni",
+--     },
+--   },
+-- }
+-- return {
+--   -- Configure LazyVim to load oxocarbon
+--   {
+--     "LazyVim/LazyVim",
+--     dependencies = {
+--       "Rigellute/shades-of-purple.vim",
+--     },
+--     opts = {
+--       colorscheme = "shades_of_purple",
+--     },
+--   },
+-- }
+
+-- return {
+--   -- Configure LazyVim to load oxocarbon
+--   {
+--     "LazyVim/LazyVim",
+--     dependencies = {
+--       "marko-cerovac/material.nvim",
+--       name = "material",
+--     },
+--     opts = {
+--       colorscheme = "material-deep-ocean",
+--     },
+--   },
+-- }
 
 -- return {
 --   -- Configure LazyVim to load oxocarbon
