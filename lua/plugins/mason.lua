@@ -37,6 +37,8 @@ return {
       "eslint_d",
       -- "gopls",
       "lua-language-server",
+      "css-lsp",
+      "markuplint",
     },
   },
 }

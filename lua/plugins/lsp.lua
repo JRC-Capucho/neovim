@@ -8,6 +8,7 @@ return {
       -- pyright = {},
       -- intelephense = {},
       tsserver = {},
+      cssls = {},
     },
     setup = {},
   },

@@ -1,15 +1,22 @@
-return {
-  -- Configure LazyVim to load oxocarbon
-  {
-    "LazyVim/LazyVim",
-    dependencies = {
-      "rebelot/kanagawa.nvim",
-    },
-    opts = {
-      colorscheme = "kanagawa",
-    },
-  },
-}
+return { "datsfilipe/min-theme.nvim", lazy = false, priority = 1000 }
+
+-- return {
+--   "olivercederborg/poimandres.nvim",
+--   lazy = false,
+--   priority = 1000,
+-- }
+-- return {
+--   -- Configure LazyVim to load oxocarbon
+--   {
+--     "LazyVim/LazyVim",
+--     dependencies = {
+--       "rebelot/kanagawa.nvim",
+--     },
+--     opts = {
+--       colorscheme = "kanagawa",
+--     },
+--   },
+-- }
 -- return {
 --   -- Configure LazyVim to load oxocarbon
 --   {
