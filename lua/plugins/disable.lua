@@ -21,4 +21,8 @@ return {
       }
     end,
   },
+  {
+    enabled = false,
+    "mfussenegger/nvim-lint",
+  },
 }

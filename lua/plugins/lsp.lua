@@ -9,6 +9,8 @@ return {
       -- intelephense = {},
       tsserver = {},
       cssls = {},
+      dockerls = {},
+      docker_compose_language_service = {},
     },
     setup = {},
   },

@@ -1,93 +1,33 @@
-return { "datsfilipe/min-theme.nvim", lazy = false, priority = 1000 }
+-- return {
+--   "navarasu/onedark.nvim",
+--   lazy = false,
+--   priority = 1000,
+--   config = function()
+--     require("onedark").setup({
+--       style = "dark",
+--     })
+--   end,
+-- }
 
 -- return {
---   "olivercederborg/poimandres.nvim",
+--   "sainnhe/sonokai",
 --   lazy = false,
 --   priority = 1000,
 -- }
--- return {
---   -- Configure LazyVim to load oxocarbon
---   {
---     "LazyVim/LazyVim",
---     dependencies = {
---       "rebelot/kanagawa.nvim",
---     },
---     opts = {
---       colorscheme = "kanagawa",
---     },
---   },
--- }
--- return {
---   -- Configure LazyVim to load oxocarbon
---   {
---     "LazyVim/LazyVim",
---     dependencies = {
---       "getomni/neovim",
---     },
---     opts = {
---       colorscheme = "omni",
---     },
---   },
--- }
--- return {
---   -- Configure LazyVim to load oxocarbon
---   {
---     "LazyVim/LazyVim",
---     dependencies = {
---       "Rigellute/shades-of-purple.vim",
---     },
---     opts = {
---       colorscheme = "shades_of_purple",
---     },
---   },
--- }
+-- return { "datsfilipe/min-theme.nvim", lazy = false, priority = 1000 }
 
--- return {
---   -- Configure LazyVim to load oxocarbon
---   {
---     "LazyVim/LazyVim",
---     dependencies = {
---       "marko-cerovac/material.nvim",
---       name = "material",
---     },
---     opts = {
---       colorscheme = "material-deep-ocean",
---     },
---   },
--- }
-
--- return {
---   -- Configure LazyVim to load oxocarbon
---   {
---     "LazyVim/LazyVim",
---     dependencies = { "nyoom-engineering/oxocarbon.nvim", name = "oxocarbon" },
---     opts = {
---       colorscheme = "oxocarbon",
---     },
---   },
--- }
-
--- return {
---   "LazyVim/LazyVim",
---   priority = 1000,
---   dependencies = {
---     "ellisonleao/gruvbox.nvim",
---   },
---   opts = {
---     colorscheme = "gruvbox",
---   },
--- }
+return {
+  "olivercederborg/poimandres.nvim",
+  lazy = false,
+  priority = 1000,
+}
 
 -- ROSE PINE
 -- return {
---   -- Configure LazyVim to load gruvbox
---   {
---     "LazyVim/LazyVim",
---     dependencies = { "rose-pine/neovim", name = "rose-pine" },
---     opts = {
---       colorscheme = "rose-pine",
---     },
---   },
+--   "rose-pine/neovim",
+--   priority = 1000,
+--   lazy = false,
+--   name = "rose-pine",
 -- }
 
 -- CATPPUCCIN
