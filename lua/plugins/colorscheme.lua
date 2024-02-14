@@ -1,3 +1,4 @@
+return {} -- void message error
 -- return {
 --   "navarasu/onedark.nvim",
 --   lazy = false,
@@ -16,11 +17,11 @@
 -- }
 -- return { "datsfilipe/min-theme.nvim", lazy = false, priority = 1000 }
 
-return {
-  "olivercederborg/poimandres.nvim",
-  lazy = false,
-  priority = 1000,
-}
+-- return {
+--   "olivercederborg/poimandres.nvim",
+--   lazy = false,
+--   priority = 1000,
+-- }
 
 -- ROSE PINE
 -- return {

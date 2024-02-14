@@ -7,7 +7,12 @@ vim.scriptencoding = "utf-8"
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
-vim.opt.number = true
+vim.opt.nu = true
+vim.opt.rnu = true
+
+vim.opt.incsearch = true
+vim.opt.hlsearch = true
+
 
 vim.opt.title = true
 vim.opt.autoindent = true
@@ -25,27 +30,26 @@ vim.opt.inccommand = "split"
 vim.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in search
 vim.opt.smarttab = true
 vim.opt.breakindent = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
-vim.opt.wrap = false -- No Wrap lines
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.wrap = false          -- No Wrap lines
 vim.opt.backspace = { "start", "eol", "indent" }
 vim.opt.path:append({ "**" }) -- Finding files - Search down into subfolders
 vim.opt.wildignore:append({ "*/node_modules/*" })
-vim.opt.splitbelow = true -- Put new windows below current
-vim.opt.splitright = true -- Put new windows right of current
+vim.opt.splitbelow = true     -- Put new windows below current
+vim.opt.splitright = true     -- Put new windows right of current
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
+vim.opt.signcolumn = "yes"
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+vim.opt.cursorline = true
 
--- Undercurl
-vim.cmd([[let &t_Cs = "\e[4:3m"]])
-vim.cmd([[let &t_Ce = "\e[4:0m"]])
-
--- Add asterisks in block comments
-vim.opt.formatoptions:append({ "r" })
-
-vim.cmd([[au BufNewFile,BufRead *.astro setf astro]])
-vim.cmd([[au BufNewFile,BufRead Podfile setf ruby]])
-
-if vim.fn.has("nvim-0.8") == 1 then
-  vim.opt.cmdheight = 0
-end
+vim.opt.guicursor = {
+    "n-v-c:block",                               -- Normal, visual, command-line: block cursor
+    "i-ci-ve:ver25",                             -- Insert, command-line insert, visual-exclude: vertical bar cursor with 25% width
+    "r-cr:hor20",                                -- Replace, command-line replace: horizontal bar cursor with 20% height
+    "o:hor50",                                   -- Operator-pending: horizontal bar cursor with 50% height
+    "a:blinkwait700-blinkoff400-blinkon250",     -- All modes: blinking settings
+    "sm:block-blinkwait175-blinkoff150-blinkon175", -- Showmatch: block cursor with specific blinking settings
+}
