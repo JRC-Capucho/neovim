@@ -39,7 +39,7 @@ return {
             "eslint_d",
             "gopls",
             "dockerfile-language-server",
-            "docker_compose_language_service",
+            "docker-compose-language-service"
         },
     },
 }
