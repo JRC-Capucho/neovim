@@ -1,5 +1,4 @@
 return {
-  enabled = false,
   "stevearc/conform.nvim",
   opts = function()
     ---@class ConformOpts
@@ -17,7 +16,6 @@ return {
         sh = { "shfmt" },
         javascript = { "prettier" },
         typescript = { "prettier" },
-        python = { "isort", "black" },
       },
     }
     return opts

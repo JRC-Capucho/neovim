@@ -20,13 +20,5 @@ return {
                 enable = false,
             }
         end,
-    },
-    {
-        enabled = false,
-        "mfussenegger/nvim-lint",
-    },
-    {
-        enabled = false,
-        "nvim-neo-tree/neo-tree.nvim",
     }
 }
