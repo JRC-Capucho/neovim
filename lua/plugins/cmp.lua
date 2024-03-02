@@ -7,6 +7,12 @@ return {
   opts = function(_, opts)
     table.insert(opts.sources, { name = "emoji" })
     local cmp = require("cmp")
+    cmp.setup({
+      window = {
+        completion = cmp.config.window.bordered(),
+        documentation = cmp.config.window.bordered(),
+      },
+    })
     -- `:` cmdline setup.
     cmp.setup.cmdline(":", {
       mapping = cmp.mapping.preset.cmdline(),
