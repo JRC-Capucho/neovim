@@ -61,13 +61,9 @@ keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
 
 -- Diagnostics
-keymap.set("n", "<leader>j", function()
+keymap.set("n", "J", function()
   vim.diagnostic.goto_next()
 end, opts)
-
-keymap.set("n", "<leader>r", function()
-  require("lazy.utils").replaceHexWithHSL()
-end)
 
 keymap.set("n", "<leader>cu", vim.cmd.UndotreeToggle)
 
