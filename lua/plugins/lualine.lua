@@ -3,20 +3,24 @@ return {
   event = "VeryLazy",
   opts = {
     options = {
-      component_separators = { left = "", right = "" },
-      section_separators = { left = "", right = "" },
+      component_separators = "|",
+      section_separators = { left = "", right = "" },
       theme = "catppuccin",
     },
     sections = {
-      lualine_a = { "mode" },
+      lualine_a = {
+        { "mode", separator = { left = "" }, right_padding = 2 },
+      },
       lualine_b = { "branch" },
       lualine_c = {},
       lualine_x = { "fileformat" },
-      lualine_y = { "progress" },
+      lualine_y = { "progress", "location" },
       lualine_z = {
         {
           "datetime",
           style = "%H:%M",
+          separator = { right = "" },
+          left_padding = 2,
         },
       },
     },
